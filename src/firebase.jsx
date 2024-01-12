@@ -8,12 +8,12 @@ import "firebase/auth";
 import "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAXic_QZyTGD8xH6O3Ge9uORiMbKsWevaE",
-  authDomain: "chat-8e0e1.firebaseapp.com",
-  projectId: "chat-8e0e1",
-  storageBucket: "chat-8e0e1.appspot.com",
-  messagingSenderId: "1090085515598",
-  appId: "1:1090085515598:web:2aac03a1df60469466ae1f",
+  apiKey: "YOUR_KEY",
+  authDomain: "DOMAIN.firebaseapp.com",
+  projectId: "PROJECT ID",
+  storageBucket: "DOMAIN.appspot.com",
+  messagingSenderId: "ID",
+  appId: "APP ID",
   measurementId: "G-8HWELT1N1D",
 };
 
