@@ -22,8 +22,8 @@ This is a chat application built with ReactJS and Firebase. It allows users to c
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/LaKhWaN/chat-app.git`
-2. Navigate to the project directory: `cd chat-app`
+1. Clone the repository: `git clone https://github.com/LaKhWaN/chat.git`
+2. Navigate to the project directory: `cd chat`
 3. Install dependencies: `npm install`
 
 ## Configuration
