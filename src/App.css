@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+*{
+    font-family: 'Anonymous Pro', monospace;
+    margin: 0px;
+    padding: 0px;  
+}
+
+body {
+    background-color: #212121;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+.container {
+    margin-top: 2rem;
+    height: 90vh;
+    width: 60vw;
+    color: whitesmoke;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.bar {
+    text-align: center;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logout {
+    display: flex;
+    align-self: center;
+}
+
+hr {
+    border: 1px white solid;
+}
+
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    /* background-color: grey; */
+    height: 65%;
+    width: 100%;
+    overflow-y: scroll;
+    scrollbar-width:thin;
+}
+
+.chat-box::-webkit-scrollbar {
+    width: 8px;
+}
+
+.chat-box::-webkit-scrollbar-track {
+    background-color: #212121;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+    background-color: #313131;
+    border-radius: 2px;
+}
+
+.chat-box::-webkit-scrollbar-thumb:hover {
+    background-color: #555555;
+}
+
+.msg {
+    margin:0rem 1rem;
+    margin-top: 0.5rem;
+    align-self: flex-start;
+}
+
+.msg img {
+    border-radius: 50%;
+    width: 4vw;
+}
+
+.receiver {
+    align-self: flex-start;
+}
+
+.sender {
+    align-self: flex-end;
+}
+.chat-input {
+    display: flex;
+    justify-content: space-evenly;
+}
+input {
+    width: 70%;
+    padding: 0.15rem 2rem;
+    background-color: #313131;
+    border: 0px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 100;
+}
+
+input:focus{
+    outline: none;
+}
+
+button:focus{
+    outline: none;
+}
+button {
+    padding: 0.15rem 2rem;
+    background-color: #313131;
+    border: 0px;
+    border-radius: 10px;
+    color: rgba(240, 248, 255, 0.450);
+    transition: 350ms;
+}
+
+button:hover{
+    background-color: rgba(240, 248, 255, 0.450);
+    color: #313131;
+}
+
+.setUsername label{
+    margin-right: 1.5rem;
+}
+
+.homeCss-input {
+    font-size: x-large;
+    padding: 1rem 1.5rem;
+    width: 75%;
+    height: 75%;
+}
+
+.homeCss-button {
+    font-size: x-large;
+    width: auto;
+}
+.homeCss {
+    margin: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+.homeCss button {
+    font-size: x-large;
+    width: auto;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.terms-policy {
+    padding-left: 25%;
+}
+
+.form {
+    margin-top: 1rem;
+    display: flex;
+    width: 75%;
+    justify-content: space-evenly;
+    align-items: center;
+}
